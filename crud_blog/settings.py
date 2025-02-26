@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'crud_blog.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'crud',
+        'NAME': 'dupa',
         'USER': 'postgres',
         'PASSWORD': 'root',
         'HOST': 'localhost',
