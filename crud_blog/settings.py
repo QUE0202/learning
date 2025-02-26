@@ -76,12 +76,12 @@ WSGI_APPLICATION = 'crud_blog.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-        'USER': 'j.troka_admin',
-        'PASSWORD': 'zaq1@WSX',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'crud',
+        'USER': 'postgres',
+        'PASSWORD': 'root',
         'HOST': 'localhost',
-        'PORT': '',
+        'PORT': '5432',
     }
 }
 
